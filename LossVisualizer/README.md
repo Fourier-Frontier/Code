@@ -2,7 +2,7 @@
 이 프로그램은 학습 로그에서 손실(`Loss`) 값을 추출하여 에포크별로 시각화하는 도구입니다. 간단한 GUI를 제공하여 로그 데이터를 입력하고 버튼 클릭으로 손쉽게 손실 그래프를 확인할 수 있습니다.
 
 ## 사용 방법
-1. LossVisualizer.py 파일을 실행하고, `Loss Visualizer` 창을 확인합니다.
+1. 'LossVisualizer.py' 파일을 다운로드 이후 실행하고, `Loss Visualizer` 창을 확인합니다.
 2. **Training log data (copy & paste here)** 텍스트 상자에 로그 데이터를 붙여넣습니다.
    - 예시:
      ```
