@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import scrolledtext
 
 def plot_loss():
-    data = text_area.get("1.0", tk.END)  
+    data = text_area.get("1.0", tk.END)
     loss_values = re.findall(r'Loss:\s([0-9.]+)', data)
     loss_values = [float(loss) for loss in loss_values]
     epochs = list(range(1, len(loss_values) + 1))
